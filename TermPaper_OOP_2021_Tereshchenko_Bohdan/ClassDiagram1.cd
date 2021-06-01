@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TermPaper_OOP_2021_Tereshchenko_Bohdan.Program">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAQAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDynamicLibrary.User">
+    <Position X="7.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyDynamicLibrary.Admin">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="MyDynamicLibrary.User" ManuallyRouted="true">
+      <Path>
+        <Point X="8.75" Y="3.594" />
+        <Point X="8.75" Y="3.963" />
+        <Point X="10.75" Y="3.963" />
+        <Point X="10.75" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyDynamicLibrary.Guest">
+    <Position X="6.25" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="MyDynamicLibrary.User" ManuallyRouted="true">
+      <Path>
+        <Point X="8.75" Y="3.594" />
+        <Point X="8.75" Y="3.925" />
+        <Point X="7" Y="3.925" />
+        <Point X="7" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyDynamicLibrary.News">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyDynamicLibrary.Rubric">
+    <Position X="1" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyDynamicLibrary.OutOfRangeException">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyDynamicLibrary.IsNotDigitException">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
